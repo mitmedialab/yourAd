@@ -1,4 +1,6 @@
-# ![YourAd](https://github.com/mitmedialab/yourAd/blob/master/chrome_extension/img/icon48.png "YourAd") YourAd
+![YourAd](https://github.com/mitmedialab/yourAd/blob/master/chrome_extension/img/icon128.png "YourAd") 
+
+# YourAd
 
 YourAd is an open-source browser extension and ad design tool that allows users to supplant their internet ads with custom replacements– designed by and for themselves. It uses Python/PIL to generate ads as specified by the user with a commandline tool, and works as a Chrome Extension.
 
