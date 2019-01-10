@@ -1,4 +1,4 @@
-![YourAd](https://github.com/mitmedialab/yourAd/blob/master/chrome_extension/img/icon128.png "YourAd") 
+# YourAd             ![YourAd](https://github.com/mitmedialab/yourAd/blob/master/chrome_extension/img/icon128.png "YourAd") 
 
 # YourAd
 
