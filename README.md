@@ -1,8 +1,15 @@
-#YourAd
+# YourAd
+
+YourAd is an open-source browser extension and ad design tool that allows users to supplant their internet ads with custom replacements– designed by and for themselves. It uses Python/PIL to generate ads as specified by the user with a commandline tool, and works as a Chrome Extension.
+
+For more details, see the [write up here.](https://davidbramsay.com/public/RamsayYourAd.pdf)
+
+This is a fork of the [Catblock Project](https://github.com/catblock/catblock); many thanks to those guys for their open-source work!
+
+Included images are all non-attribution licensed images from pexel.com.
 
 
-
-##To get it up and running:
+## To get it up and running:
 
 1) pip install -r requirements.txt
 
@@ -13,7 +20,6 @@
 4) load the extension in developer mode:
     * go to chrome://extensions in chrome
     * activate 'developer mode' in the top right of page with the checkbox
-    * click 'load unpacked extension' and select 'yourad/chrome_extension'
-      folder
+    * click 'load unpacked extension' and select 'yourad/chrome_extension' folder
 
 off it goes!
