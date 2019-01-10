@@ -1,0 +1,126 @@
+## Versions ##
+
+1.5.1:
+- Block Facebook suggested posts (#120)
+- Updated jQuery and jQuery UI (#130)
+- Fixed not working "Report an ad" page (#126)
+- Fixed not working "Block an ad" wizard (#124)
+- Removed eval statements (#119)
+
+1.5:
+- Change chrome.extension.getBackgroundPage to chrome.runtime.getBackgroundPage (#118)
+- Remove "Project C.A.T.S." code (#117)
+- Get build info from chrome.management API (#113)
+- parseURI v2 - use standardized URL constructor (#116)
+- Update the i18n for Options page title (#114)
+- Options page redesign (#111)
+- Update libraries (#110)
+- Use ES2015 classes instead of having prototype-based functions (#73)
+- Refactor build script (#76)
+- Pause state should use localStorage instead of sessionStorage (#100)
+- Hide commands when running Setup.cmd (#109)
+- All parameters are mandatory in `initEvent` (#102)
+
+1.4.9:
+- Fixed initialization of "Project CATS" for existing users (#88, #89)
+
+1.4.8:
+- Include js/cats.js script in BG scripts on Safari (#84, #87)
+- Fixed setting width and height of a Safari popup (#85, #86)
+
+1.4.7:
+- Added "Project CATS" mode for C.A.T.S. backers (#82)
+- Enable "Project CATS" only on Chrome, Opera and Firefox (#83)
+- Update jQuery to 3.1 (#72)
+- Fixed bug, which has resulted in displaying more cats than intended (#37, #79)
+- Fixed a regression introduced in 1.4.6, which has resulted in not replacing ads by cats (#77, #78)
+- Fixed disabling Flickr channels; they were automatically enabled after a browser restart (#74, #75)
+- Fixed building CatBlock for Firefox (#80)
+
+1.4.6:
+- Name change of popover on Safari from "AdBlock" to "CatBlock" (#59)
+- Drop support for Safari 5.x (#61)
+- Change references to CatBlock on Safari (#62)
+- Unified code style (#63)
+- Fixed throwing an error when "getAttribute" property of an element is undefined (#66)
+- Updated translations
+
+1.4.5:
+- Add checks for undefined tabs, while getting info about them (#56)
+- Simplified code for getting tab info in popup (#56)
+- Show step for disabling extensions on Edge and Firefox (again) (#56)
+- Removed function for normalizing requests (#56)
+- Check for "message" and "stack" property when an error occurs (#58)
+
+1.4.4:
+
+- Adjusted steps for Firefox and Edge on ad-report page (#53)
+- Changed name from "AdBlock with CatBlock" to "CatBlock" (#54)
+- Adjusted minimum versions of browsers needed for running CatBlock (#54)
+- Don't show how-to hide the extension button on Firefox (#53)
+- Update description of the extension (#54, #55)
+- Updated translations (#53)
+- Fixed detection of CatBlock on ad-report page (#53)
+- Fixed using chrome.permissions on ad-report page (#53)
+
+1.4.3:
+- Fixes injecting YouTube channel logic file (#52)
+
+1.4.2:
+- Switched to asynchronous XHR throughout the code (#46)
+- Updated jQuery UI library (#46)
+- Fixed injecting of jQuery UI (#46)
+- Fixed undoing added hiding filters within popup menu on Firefox (#46)
+- Punycode library wasn't defined in Safari (#46)
+- Fixed path to bandaids.js (#50)
+- Moved inline CSS into .css file for an Adreport page (#48)
+
+1.4.1:
+- Added context menu options (Pause/Unpause CatBlock; Options page)
+- Added support for Firefox browser
+- Move from extension.getURL to runtime.getURL API
+- Move from the deprecated extension.sendRequest/onRequest to runtime.sendMessage/onMessage
+- Updates to the port.js file (reflecting the API changes)
+- Updated jQuery and jQuery UI libraries
+- Updated punycode.js library
+- Changed Options page behaviour
+- Updated translations
+- Fixed selecting certain options on General tab
+
+1.4:
+- Added support for Microsoft Edge browser
+- Added update checker for Edge
+- Updated the AdBlock core to version 2.56
+- Updated translations
+
+1.3:
+- Update the AdBlock core to version 2.50
+- Add the option to "paws" the image replacement functionality
+- Improve ad replacement functionality on Chrome
+
+1.2.1:
+- Minor fixes for Chrome and Opera stores
+
+1.2:
+- Updated translations
+- Updated design from AdBlock 2.18
+- Whitelisted icon has been improved
+
+1.1.2:
+- Bumped required minimal version of Chrome from 23 to 41
+- Fixed icons on Safari
+- Fixed loading of jQuery on Safari
+- Removed unused icons and /filters folder
+
+1.1.1:
+- Minor fixes for getting extension published on Chrome Web Store and
+  Opera Extensions Store
+
+1.1:
+- First working release of CatBlock
+- One codebase for all versions of the extension
+- CatBlock's settings page has been added to Options
+- Updated AdBlock files to 2.7
+
+1.0:
+- Imported code from catblock.getadblock.com

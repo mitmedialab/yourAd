@@ -1,0 +1,6 @@
+colorthief==0.2.1
+numpy==1.15.1
+Pillow==5.1.0
+PyInquirer==1.0.3
+pyfiglet==0.8.post0
+seaborn==0.8.1
