@@ -23,3 +23,7 @@ Included images are all non-attribution licensed images from pexel.com.
     * click 'load unpacked extension' and select 'yourad/chrome_extension' folder
 
 off it goes!
+
+## License
+
+GNU GPL v3, as inherited from CatBlock.  (Thanks again guys!)
